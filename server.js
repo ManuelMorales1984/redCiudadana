@@ -10,7 +10,7 @@ app.configure(function(){
 
 });
 
-app.get('/',function(req, res){
+app.get('/nelo',function(req, res){
 	res.send('Hola, Mundo !!!');
 });
 
