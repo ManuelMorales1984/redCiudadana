@@ -4,8 +4,7 @@
   "description": "A sample Node.js app using Express 4",
   "engines": {
     "node": "6.0.0",
-    "npm": "3.8.8",
-
+    "npm": "3.8.8"
   },
   "main": "server.js",
   "scripts": {
