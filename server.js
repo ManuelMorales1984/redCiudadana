@@ -1,5 +1,4 @@
-var express = requiere('express');
-var mongose = requiere('mongose');
+
 var app = express();
 
 
