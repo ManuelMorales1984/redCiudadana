@@ -2,19 +2,20 @@
   "name": "ntestingsa",
   "version": "0.3.0",
   "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "latest",
-    "npm": "latest"
-  },
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
   "dependencies": {
     "express": "latest",
     "mongose" : "latest"
 
   },
+  "engines": {
+    "node": "6.0.0",
+    "npm": "3.8.8"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  
   "devDependencies": {
     "request": "^2.81.0",
     "tape": "^4.7.0"
