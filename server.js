@@ -8,8 +8,8 @@ var port = process.env.PORT || 8000;
 app.get('/', function(req, res) { 
 	res.send('Geeky Theory probando express.js'); 
 });
-app.post('/prueba', function(req, res) {
-	console.log(req.body.nombre);
+app.post('/prueba', function(req, res) { 
+	console.log(req.body);
  console.log("Manueliito Probando parametros de entrada");
  var nombre = req.body.nombre || '';
  
