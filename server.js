@@ -10,7 +10,9 @@ app.get('/', function(req, res) {
 	res.send('Geeky Theory probando express.js'); 
 });
 app.post('/prueba', function(req, res) { 
+ console.log(req.body);
  console.log(req.body.nombre);
+
  console.log("Manueliito Probando parametros de entrada......");
  res.send('Geeky Theory probando express.js en /prueba'); 
 });
